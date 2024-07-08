@@ -22,10 +22,12 @@ document.getElementById("login").addEventListener("click", () => {
                             password: password.value,
                             token: generateToken()
                         }))
+                        document.getElementById("error").style.display= "none";
                         window.location.href = "../shop/index.html";
                     }
                 } else {
-                    // no user
+                    document.getElementById("error").innerHTML = "User not found Please Signup!!";
+                    document.getElementById("error").style.color= "red";
                 }
             } else {
                 //please signup
