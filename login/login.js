@@ -22,7 +22,7 @@ document.getElementById("login").addEventListener("click", () => {
                             password: password.value,
                             token: generateToken()
                         }))
-                        window.location.href = "/shop/index.html";
+                        window.location.href = "../shop/index.html";
                     }
                 } else {
                     // no user
