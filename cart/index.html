@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="/">Shopping Cart</a>
+      </div>
+      <div class="nav-items">
+        <a href="/">Home</a>
+        <a id="profile" href="/profile/">Profile</a>
+        <a id="logout" href="../index.html">Logout</a>
+      </div>
+    </nav>
+    <section>
+      <p id="mycart">My Cart</p>
+      <div id="product_div">
+        <div id="div1">
+          <!-- <div class="items">
+            <div class="item">
+              <img src="${item.image}" alt="Item" />
+              <div class="info">
+                <div class="row">
+                  <div class="price">$${item.price}</div>
+                  <div class="sized">${(item.sizes).join(', ')}</div>
+                </div>
+                <div class="colors">
+                  Colors:
+                  <div class="row">
+                    <div class="circle" style="background-color: #000"></div>
+                  </div>
+                </div>
+                <div class="row rating">Rating: ${item.rating.rate}</div>
+                <button id="addBtn" onclick="Addtocart(${item.id})">Add to Cart</button>
+              </div>
+              
+            </div>
+          </div> -->
+        </div>
+        <div id="div2">
+          <p id="checkoutp">Checkout List</p>
+          <div id="name_price_div">
+            <!-- <div id="name_price">
+              <p id="product_name">1. Shirt</p>
+              <p id="product_price">$ 100</p>
+            </div> -->
+            
+          </div>
+          <hr>
+          <div id="total_price">
+            <p id="total">Total</p>
+            <p id="total_amount"></p>
+          </div>
+          <hr>
+          <div id="clicktocheckout">
+            <button id="btn" type="button">Click to Checkout</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </body>
+</html>

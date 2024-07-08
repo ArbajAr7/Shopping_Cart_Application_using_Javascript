@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <nav>
+      <div class="brand">
+        <a href="/">Profile</a>
+      </div>
+      <div class="nav-items">
+        <a href="/">Home</a>
+        <a id="profile" href="/cart/">My Cart</a>
+        <a id="logout" href="../index.html">Logout</a>
+      </div>
+    </nav>
+
+    <p id="profile_heading">My Profile</p>
+    <div id="namedivpass">
+      <input type="text" id="fname" name="firstname" placeholder="First name..">
+      <br>
+      <input type="text" id="lname" name="lastname" placeholder="Last name..">
+      <button id="saveinfobtn" type="button">Save Info</button>
+      <p id="error">Enter first name and last name!!!</p>
+      <p id="success">Name change success!!!</p>
+    </div>
+    <p id="profile_heading">Edit Password</p>
+    <div id="namedivpass">
+      <input type="password" id="oldpass" name="oldpass" placeholder="Old Password">
+      <br>
+      <input type="password" id="newpass" name="newpass" placeholder="New Password">
+      <input type="password" id="confirmpass" name="confirmpass" placeholder="confirm Password">
+      <button id="changepassword" type="button">Change Password</button><br>
+      <p id="error2"></p>
+      <p id="success2">Password Successfully Changed!!!</p>
+      <button id="logoutbtn" type="button">Logout</button>
+    </div>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>

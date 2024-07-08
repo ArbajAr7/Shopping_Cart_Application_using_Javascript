@@ -1,0 +1,67 @@
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+  
+  main {
+    display: flex;
+    height: 100vh;
+  } */
+
+  #welcome1{
+    padding: 50px;
+    width: 100vw;
+  }
+
+   #meshop{
+    font-size: 50px;
+    font-weight: 600;
+   }
+
+   #yourfirst {
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+   }
+   .btn {
+    margin-right: 10px;
+    width: 150px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size: medium;
+   }
+   #loginbtn {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+   }
+   #signupbtn {
+    border: 2px solid black;
+   }
+   #welcome_image{
+    width: 60%;
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+   }
